@@ -141,7 +141,7 @@
         FUNCTION {
             bindings = <
 &kp F1    &kp F2  &kp F3  &kp F4     &kp F5                    &kp F6  &kp F7   &kp F8   &kp F9   &kp PAGE_UP
-&none     &none   &none   &mkp LCLK  &mkp RCLK  &none  &trans  &trans  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN
+&none     &none   &none   &mkp LCLK  &mkp RCLK  &to 0  &trans  &trans  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN
 &none     &none   &none   &none      &none      &none  &trans  &trans  &trans   &trans   &trans   &kp HOME
 &kp CAPS  &none   &none   &none      &none      &none  &trans  &trans                             &kp END
             >;
