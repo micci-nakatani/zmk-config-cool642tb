@@ -132,7 +132,7 @@
 &kp Q           &kp W         &kp E         &kp R                        &kp T                                                                         &kp Y                   &kp U  &kp I      &kp O       &kp P
 &kp A           &kp S         &kp D         &kp F                        &kp G                   &to 1                        &kp SEMICOLON            &kp H                   &kp J  &kp K      &kp L       &kp MINUS
 &kp Z           &kp X         &kp C         &kp V                        &kp B                   &kp TAB                      &kp SLASH                &kp N                   &kp M  &kp COMMA  &kp PERIOD  &kp EQUAL
-&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_CONTROL LANGUAGE_2  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 5 LANGUAGE_1  &lt_to_layer_0 6 DELETE  &lt_to_layer_0 2 ENTER                                &kp SQT
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_CONTROL LANGUAGE_2  &lt_to_layer_0 4 SPACE  &lt_to_layer_0 1 LANGUAGE_1  &lt_to_layer_0 6 DELETE  &lt_to_layer_0 2 ENTER                                &kp SQT
             >;
 
             sensor-bindings = <&scroll_move_y>;
@@ -173,10 +173,10 @@
 
         MOUSE {
             bindings = <
-&kp Q       &kp W    &kp E             &kp R         &kp T                            &kp Y          &kp U  &kp I     &kp O     &kp P
-&kp A       &kp S    &kp D             &kp F         &kp G     &kp N1    &kp N2       &kp H          &kp J  &kp K     &kp L     &kp ENTER
-&kp Z       &kp X    &kp C             &kp V         &kp B     &kp N3    &kp N4       &kp N          &kp M  &mkp MB1  &mkp MB2  &kp SLASH
-&kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp MB1  &mkp MB2  &lt 2 SPACE  &kp BACKSPACE                             &kp LEFT_SHIFT
+&none  &none  &none  &none      &none                &none  &none      &none      &none  &none
+&none  &none  &none  &mkp LCLK  &none  &none  &none  &none  &mkp LCLK  &mkp RCLK  &none  &none
+&none  &none  &none  &none      &none  &none  &none  &none  &mkp MB4   &mkp MB5   &none  &none
+&none  &none  &none  &none      &none  &none  &none  &none                               &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -184,10 +184,10 @@
 
         SCROLL {
             bindings = <
-&kp ESC   &none     &kp UP    &none      &none                          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none               &none          &none
-&kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &kp END  &none  &kp PIPE       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none
-&none     &none     &none     &none      &none    &none  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LG(LEFT)        &kp LG(RIGHT)  &none
-&none     &none     &none     &none      &none    &none  &none          &none                                                                           &none
+&kp ESC   &none  &none  &none      &none                        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none               &none          &none
+&kp HOME  &none  &none  &mkp LCLK  &none  &none  &kp PIPE       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &none
+&none     &none  &none  &none      &none  &none  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LG(LEFT)        &kp LG(RIGHT)  &none
+&none     &none  &none  &none      &none  &none  &none          &none                                                                           &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
